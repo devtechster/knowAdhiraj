@@ -1,5 +1,3 @@
-## [Resource used to create this website](https://youtu.be/AKNvTxWOdKw)
-
 - Responsive Personal Portfolio Website HTML CSS & JavaScript.
 - Contains animations when scrolling.
 - Smooth scrolling in each section.
