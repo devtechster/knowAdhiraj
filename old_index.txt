@@ -341,18 +341,37 @@
             <div>
                 <h2 class="about__subtitle">AI Agent Project</h2>
                 <p class="about__text">
-           AI Agent Development Project:
+                    AI Agent Development Project:
 
-Tech Digest Email Agent: Built a simple yet effective Flask-powered email subscription system with hardcoded tech article database, automated daily email delivery using GitHub Actions, and SQLite database for subscriber management.
-Article Management System: Created static content repository with 15 hardcoded tech articles including images and links, stored in articles.py, providing curated tech news content for subscriber distribution.
-Automated Email Infrastructure: Implemented SendGrid integration through email_utils.py for welcome email delivery and daily subscriber notifications, with environment variable configuration for secure API key management.
-Subscription Workflow: Developed complete user journey from HTML form submission on landing page (index.html) to SQLite database storage (subscribers.db) and instant welcome email delivery through Flask main.py.
-Scheduled Email Automation: Built schedule_task.py script integrated with GitHub Actions workflow (daily-email.yml) to automatically send daily emails to all subscribers at scheduled times.
-Full-Stack Architecture: Created comprehensive system with frontend HTML template, CSS styling, Flask backend API, SQLite database integration, and cloud-based automation for reliable email delivery.
-GitHub Actions Integration: Implemented CI/CD pipeline using daily-email.yml workflow file to execute scheduled email delivery tasks automatically, ensuring consistent subscriber engagement without manual intervention.
-Environment-Based Configuration: Utilized .env file for secure API key storage, database configuration, and email service credentials, following security best practices for production deployment.
-Simple Database Design: Used SQLite (subscribers.db) for lightweight subscriber storage, automatically generated through Flask application with email validation and duplicate prevention mechanisms.
-Modular Code Structure: Organized project with separated concerns - article content (articles.py), email logic (email_utils.py), web interface (main.py), and scheduling (schedule_task.py) for maintainable development.
+                    Tech Digest Email Agent: Built a simple yet effective Flask-powered email subscription system with
+                    hardcoded tech article database, automated daily email delivery using GitHub Actions, and SQLite
+                    database for subscriber management.
+                    Article Management System: Created static content repository with 15 hardcoded tech articles
+                    including images and links, stored in articles.py, providing curated tech news content for
+                    subscriber distribution.
+                    Automated Email Infrastructure: Implemented SendGrid integration through email_utils.py for welcome
+                    email delivery and daily subscriber notifications, with environment variable configuration for
+                    secure API key management.
+                    Subscription Workflow: Developed complete user journey from HTML form submission on landing page
+                    (index.html) to SQLite database storage (subscribers.db) and instant welcome email delivery through
+                    Flask main.py.
+                    Scheduled Email Automation: Built schedule_task.py script integrated with GitHub Actions workflow
+                    (daily-email.yml) to automatically send daily emails to all subscribers at scheduled times.
+                    Full-Stack Architecture: Created comprehensive system with frontend HTML template, CSS styling,
+                    Flask backend API, SQLite database integration, and cloud-based automation for reliable email
+                    delivery.
+                    GitHub Actions Integration: Implemented CI/CD pipeline using daily-email.yml workflow file to
+                    execute scheduled email delivery tasks automatically, ensuring consistent subscriber engagement
+                    without manual intervention.
+                    Environment-Based Configuration: Utilized .env file for secure API key storage, database
+                    configuration, and email service credentials, following security best practices for production
+                    deployment.
+                    Simple Database Design: Used SQLite (subscribers.db) for lightweight subscriber storage,
+                    automatically generated through Flask application with email validation and duplicate prevention
+                    mechanisms.
+                    Modular Code Structure: Organized project with separated concerns - article content (articles.py),
+                    email logic (email_utils.py), web interface (main.py), and scheduling (schedule_task.py) for
+                    maintainable development.
                 </p>
             </div>
             <div class="about__img">
@@ -440,28 +459,48 @@ Modular Code Structure: Organized project with separated concerns - article cont
             <div>
                 <h2 class="about__subtitle">Data visualisation project: Tableau</h2>
                 <p class="about__text">
-Data Analytics & Visualization Project:
-**Data Analytics & Visualization Project:**
+                    Data Analytics & Visualization Project:
+                    **Data Analytics & Visualization Project:**
 
-• **Premier League Players ROI Visualization**: Developed comprehensive Tableau dashboard analyzing IPL player statistics with custom ROI metrics to guide team decision-making during small and large auction processes for optimal player acquisition strategies.
+                    • **Premier League Players ROI Visualization**: Developed comprehensive Tableau dashboard analyzing
+                    IPL player statistics with custom ROI metrics to guide team decision-making during small and large
+                    auction processes for optimal player acquisition strategies.
 
-• **Custom Performance Metrics Creation**: Built advanced analytical metrics including cost-per-run for batsmen, cost-per-wicket for bowlers, strike rate efficiency ratios, and overall player value propositions considering salary vs. performance output.
+                    • **Custom Performance Metrics Creation**: Built advanced analytical metrics including cost-per-run
+                    for batsmen, cost-per-wicket for bowlers, strike rate efficiency ratios, and overall player value
+                    propositions considering salary vs. performance output.
 
-• **Interactive Auction Analytics**: Designed dynamic Tableau visualizations enabling team analysts to filter players by position, budget constraints, performance categories, and ROI calculations to identify undervalued talent in auction markets.
+                    • **Interactive Auction Analytics**: Designed dynamic Tableau visualizations enabling team analysts
+                    to filter players by position, budget constraints, performance categories, and ROI calculations to
+                    identify undervalued talent in auction markets.
 
-• **Small Auction Strategy Focus**: Specialized dashboard development targeting annual small auction scenarios where teams release and acquire players, providing data-driven insights for strategic player replacement and team composition optimization.
+                    • **Small Auction Strategy Focus**: Specialized dashboard development targeting annual small auction
+                    scenarios where teams release and acquire players, providing data-driven insights for strategic
+                    player replacement and team composition optimization.
 
-• **Multi-Factor ROI Analysis**: Implemented comprehensive evaluation system considering batting averages, bowling economy rates, fielding statistics, injury history, and salary costs to calculate holistic player return on investment metrics.
+                    • **Multi-Factor ROI Analysis**: Implemented comprehensive evaluation system considering batting
+                    averages, bowling economy rates, fielding statistics, injury history, and salary costs to calculate
+                    holistic player return on investment metrics.
 
-• **Baseball-Cricket Analytics Bridge**: Applied sports analytics principles from baseball to cricket terminology and statistics, creating accessible performance metrics for international audiences while maintaining cricket-specific insights.
+                    • **Baseball-Cricket Analytics Bridge**: Applied sports analytics principles from baseball to
+                    cricket terminology and statistics, creating accessible performance metrics for international
+                    audiences while maintaining cricket-specific insights.
 
-• **Executive Decision Support**: Created executive-level dashboards with clear visual indicators, comparative analysis tools, and budget optimization features enabling management to make informed multi-million dollar player investment decisions.
+                    • **Executive Decision Support**: Created executive-level dashboards with clear visual indicators,
+                    comparative analysis tools, and budget optimization features enabling management to make informed
+                    multi-million dollar player investment decisions.
 
-• **Scalable Analytics Framework**: Built foundational system supporting both small annual auctions and major 5-6 year auction cycles, with extensible architecture for incorporating additional datasets and performance factors.
+                    • **Scalable Analytics Framework**: Built foundational system supporting both small annual auctions
+                    and major 5-6 year auction cycles, with extensible architecture for incorporating additional
+                    datasets and performance factors.
 
-• **Future-Ready Data Pipeline**: Designed system architecture supporting integration of fitness data, injury records, and other complex metrics to enhance player evaluation accuracy and long-term investment predictions.
+                    • **Future-Ready Data Pipeline**: Designed system architecture supporting integration of fitness
+                    data, injury records, and other complex metrics to enhance player evaluation accuracy and long-term
+                    investment predictions.
 
-• **Interactive Visualization Suite**: Developed user-friendly Tableau interface with drill-down capabilities, scenario modeling tools, and comparative analysis features enabling comprehensive player evaluation across multiple performance dimensions.
+                    • **Interactive Visualization Suite**: Developed user-friendly Tableau interface with drill-down
+                    capabilities, scenario modeling tools, and comparative analysis features enabling comprehensive
+                    player evaluation across multiple performance dimensions.
             </div>
             <div class="about__img">
                 <img src="assets/img/ibm.jpg" alt="">
@@ -471,27 +510,47 @@ Data Analytics & Visualization Project:
             <div>
                 <h2 class="about__subtitle">Data Visualization project 2</h2>
                 <p class="about__text">
-               **Data Visualization & D3.js Development Project:**
+                    **Data Visualization & D3.js Development Project:**
 
-• **Suicide Rates Visualization Dashboard**: Built interactive choropleth map using D3.js v7 to visualize suicide rates across U.S. states and counties, utilizing AI-generated dataset and TopoJSON geographical boundaries for comprehensive statistical representation.
+                    • **Suicide Rates Visualization Dashboard**: Built interactive choropleth map using D3.js v7 to
+                    visualize suicide rates across U.S. states and counties, utilizing AI-generated dataset and TopoJSON
+                    geographical boundaries for comprehensive statistical representation.
 
-• **AI-Powered Data Generation**: Leveraged GPT prompt engineering to create structured CSV dataset with columns (id, state, county, suicide rate) covering all U.S. states and counties organized statewise from Alabama to Florida for realistic data simulation.
+                    • **AI-Powered Data Generation**: Leveraged GPT prompt engineering to create structured CSV dataset
+                    with columns (id, state, county, suicide rate) covering all U.S. states and counties organized
+                    statewise from Alabama to Florida for realistic data simulation.
 
-• **Advanced D3.js Implementation**: Developed sophisticated geographical visualization using D3.js library integration with TopoJSON for rendering U.S. county and state boundaries (counties-albers-10m.json) with color-coded suicide rate mapping.
+                    • **Advanced D3.js Implementation**: Developed sophisticated geographical visualization using D3.js
+                    library integration with TopoJSON for rendering U.S. county and state boundaries
+                    (counties-albers-10m.json) with color-coded suicide rate mapping.
 
-• **Interactive Choropleth Mapping**: Created dynamic color-gradient visualization system where suicide rates are represented through color intensity, enabling users to identify regional patterns and statistical hotspots across different geographical areas.
+                    • **Interactive Choropleth Mapping**: Created dynamic color-gradient visualization system where
+                    suicide rates are represented through color intensity, enabling users to identify regional patterns
+                    and statistical hotspots across different geographical areas.
 
-• **Modular Architecture Design**: Structured project with separated concerns - index.html for main entry and script loading, suicideViz.js for data processing and rendering logic, and TopoJSON file for geographical boundary definitions.
+                    • **Modular Architecture Design**: Structured project with separated concerns - index.html for main
+                    entry and script loading, suicideViz.js for data processing and rendering logic, and TopoJSON file
+                    for geographical boundary definitions.
 
-• **External Library Integration**: Implemented CDN-based resource loading for D3.js v7 and TopoJSON 3.0.2 libraries, ensuring reliable performance and up-to-date visualization functionality without local dependency management.
+                    • **External Library Integration**: Implemented CDN-based resource loading for D3.js v7 and TopoJSON
+                    3.0.2 libraries, ensuring reliable performance and up-to-date visualization functionality without
+                    local dependency management.
 
-• **SVG-Based Rendering System**: Built scalable vector graphics visualization within designated map-container div, providing crisp, responsive geographical representation that maintains quality across different screen sizes and zoom levels.
+                    • **SVG-Based Rendering System**: Built scalable vector graphics visualization within designated
+                    map-container div, providing crisp, responsive geographical representation that maintains quality
+                    across different screen sizes and zoom levels.
 
-• **Data Processing Pipeline**: Developed comprehensive data loading, parsing, and transformation workflow in suicideViz.js handling CSV data integration with geographical boundaries for accurate county-level statistical mapping.
+                    • **Data Processing Pipeline**: Developed comprehensive data loading, parsing, and transformation
+                    workflow in suicideViz.js handling CSV data integration with geographical boundaries for accurate
+                    county-level statistical mapping.
 
-• **Statistical Data Visualization**: Applied data visualization best practices including appropriate color schemes, legend implementation, and statistical representation techniques for sensitive public health data presentation.
+                    • **Statistical Data Visualization**: Applied data visualization best practices including
+                    appropriate color schemes, legend implementation, and statistical representation techniques for
+                    sensitive public health data presentation.
 
-• **Responsive Web Visualization**: Created browser-compatible interactive map supporting user engagement through hover effects, tooltips, and geographical exploration features for comprehensive data analysis experience.                </p>
+                    • **Responsive Web Visualization**: Created browser-compatible interactive map supporting user
+                    engagement through hover effects, tooltips, and geographical exploration features for comprehensive
+                    data analysis experience. </p>
             </div>
             <div class="about__img">
                 <img src="assets/img/ibm.jpg" alt="">
@@ -501,25 +560,25 @@ Data Analytics & Visualization Project:
             <div>
                 <h2 class="about__subtitle">Devops project</h2>
                 <p class="about__text">
-Built a containerized React frontend using Vite, TypeScript, and Tailwind CSS
+                    Built a containerized React frontend using Vite, TypeScript, and Tailwind CSS
 
-Designed and implemented a CI/CD pipeline using GitHub Actions
+                    Designed and implemented a CI/CD pipeline using GitHub Actions
 
-Automated linting, dependency installation, and build steps on each commit
+                    Automated linting, dependency installation, and build steps on each commit
 
-Configured Dockerfile for local development and production parity
+                    Configured Dockerfile for local development and production parity
 
-Deployed app to Vercel with zero-downtime via automatic push-to-deploy
+                    Deployed app to Vercel with zero-downtime via automatic push-to-deploy
 
-Defined custom Vercel deployment settings using vercel.json
+                    Defined custom Vercel deployment settings using vercel.json
 
-Maintained clean and reproducible builds using Vite and Docker
+                    Maintained clean and reproducible builds using Vite and Docker
 
-Integrated CI workflows under .github/workflows/frontend.yml
+                    Integrated CI workflows under .github/workflows/frontend.yml
 
-Enabled local testing with npm run preview and Docker preview mode
+                    Enabled local testing with npm run preview and Docker preview mode
 
-Ensured scalability and rapid delivery through DevOps best practices                </p>
+                    Ensured scalability and rapid delivery through DevOps best practices </p>
             </div>
             <div class="about__img">
                 <img src="assets/img/ibm.jpg" alt="">
