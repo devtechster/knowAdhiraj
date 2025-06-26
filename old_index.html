@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme-stylesheet" rel="stylesheet" href="assets/css/styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Who is Adhiraj</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Adhiraj Budukh</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work ex</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <nav class="nav bd-grid">
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle-button">
+                        <span class="slider"></span>
+                    </label>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('theme-toggle-button');
+            button.addEventListener('click', toggleTheme);
+
+            function toggleTheme() {
+                const stylesheet = document.getElementById('theme-stylesheet');
+                if (stylesheet.getAttribute('href') === 'assets/css/styles.css') {
+                    stylesheet.href = 'assets/css/styles2.css';
+                }
+                else if (stylesheet.getAttribute('href') === 'assets/css/styles2.css') {
+                    stylesheet.href = 'assets/css/styles3.css';
+                }
+                else if (stylesheet.getAttribute('href') === 'assets/css/styles3.css') {
+                    stylesheet.href = 'assets/css/styles.css';
+                }
+                else {
+                    stylesheet.href = 'assets/css/styles2.css';
+                }
+            }
+        });
+    </script>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Adhiraj</span><br>Software Developer
+                </h1>
+                <!-- <a href="#" class="button">Contact</a> -->
+                <a href="https://www.linkedin.com/in/devadhiraj/" class="button">Message me in LinkedIn</a>
+            </div>
+
+            <div class="home__social">
+                <!-- <a href="https://www.linkedin.com/in/devadhiraj/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a> -->
+                <a href="https://github.com/devtechster" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://x.com/dev_techster" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'am Adhiraj</h2>
+                    <p class="about__text">I am a diligent developer with 3.9 years of experience in software
+                        engineering, frontend development, product management, database handling, and mobile
+                        development.
+                        I have contibuted in Product's Lifecycle Management at IBM,to build solution for clients using
+                        out-of-the-box features of platforms like OraclePLM and LabVantage.
+                        I am enthusiastic about building innovative applications and products.
+                        My expertise spans product management, database handling, frontend design, scripting, and
+                        developing user documentation.
+                        I have a proven track record in aligning technical solutions with business goals, optimizing
+                        service delivery, and driving smooth product rollouts particularly in platforms JIRA,
+                        ServiceNow.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__name">Front-end Tech Stack : HTML,CSS, js, react, react native</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__name">Database: Oracle, MySQL, SQLite, Mongo</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__name">Tools : Android, OraclePLM, JIRA, Git, GitHub, ServiceNow</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/solbid.png" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">Software Engineering Intern (May '24 - Present)</h2>
+                    <p class="about__text">
+                    <ul>
+                        <li>• Developed an in-house CRM and project management tool using Reactjs, reduced operational
+                            costs and improved efficiency.</li>
+                        <li>• Designed and implemented over 20 advanced features, including analytics tools for
+                            management to analyse customer requirements and improve delivery outcomes. </li>
+                        <li>• Leveraged code reusability and dynamic components to optimize performance, reduced space
+                            complexity in the CRM.</li>
+                        <li>• Enhanced the application’s UI with customizations tailored to specific needs; built data
+                            visualization features to support data-driven
+                            decision-making and strategic planning and created comprehensive technical and software
+                            documentation application workflows. </li>
+                        <li>• Developing cross-platform Android and iOS app associated with CRM project using React
+                            Native, integrating APIs for real-time data communication and display.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="about__container bd-grid">
+                <div>
+                    <h2 class="about__subtitle">Associate Systems Engineer (Oct '19- Dec '22)</h2>
+                    <p class="about__text">
+                    <ul>
+                        <li>• At IBM, worked directly with the business team servicing Philip Morris International,
+                            managing Oracle PLM and LabVantage tools in an Agile environment. Played a key role in
+                            product management, ensuring technical solutions aligned with business goals while
+                            translating complex business requirements into actionable product features.</li>
+                        <li>• Optimized service delivery by addressing intricate service requests on platforms like
+                            ServiceNow, Oracle PLM, and LabVantage, resolving over 100 technical issues and improving
+                            system performance through SQL query management. Led change management initiatives on
+                            ServiceNow, ensuring smooth product rollouts with minimal downtime. </li>
+                        <li>• Additionally, configured tools in LabVantage, maintained data integrity, resolved
+                            discrepancies through SQL queries, and enhanced operational workflows by optimizing batch
+                            processing, log analysis, and system performance in collaboration with multiple departments.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="about__img">
+                    <img src="assets/img/ibm.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle">Movie Analytics & Data Mining Project</h2>
+                <p class="about__text">
+                    # Movie Analytics Project: Problem Statement & Analysis Framework
+
+                    ## Problem Statement
+
+                    **Objective**: To determine the most suitable machine learning approach for movie data analysis by
+                    evaluating multiple techniques and selecting the optimal method based on performance metrics and
+                    business applicability.
+
+                    **Business Challenge**:
+                    With the proliferation of streaming platforms and digital content, understanding movie patterns and
+                    user preferences has become crucial for recommendation systems and market segmentation. However,
+                    movie datasets often present unique challenges including high dimensionality, mixed data types,
+                    missing information, and complex user-movie relationships that require careful analysis to determine
+                    the most effective analytical approach.
+
+                    **Research Questions**:
+                    1. Which machine learning technique provides the most meaningful insights for movie data analysis?
+                    2. How do different algorithms perform when applied to movie rating and demographic data?
+                    3. What is the optimal approach for grouping movies based on their characteristics for
+                    recommendation systems?
+
+                    ## Methodology: Comparative Analysis Approach
+
+                    ### Step 1: Multi-Algorithm Implementation
+                    **Rationale**: Implemented diverse machine learning techniques to comprehensively evaluate which
+                    approach best suits movie data characteristics.
+
+                    **Techniques Applied**:
+                    - **Linear Regression**: For predicting continuous variables (revenue, ratings)
+                    - **Logistic Regression**: For binary classification tasks (gender prediction)
+                    - **Support Vector Machine (SVM)**: For both regression and classification scenarios
+                    - **K-Means Clustering**: For unsupervised pattern discovery and segmentation
+
+                    ### Step 2: Performance Evaluation Framework
+                    **Evaluation Metrics**:
+                    - **Regression Models**: R-squared, accuracy percentage
+                    - **Classification Models**: Accuracy score, confusion matrix analysis
+                    - **Clustering Models**: Silhouette coefficient, cluster cohesion analysis
+
+                    ## Comparative Analysis Results
+
+                    ### Linear Regression Performance
+                    **Result**: 9% accuracy score
+                    **Analysis**:
+                    - Extremely poor performance indicates linear relationships are inadequate for this dataset
+                    - Movie data exhibits complex, non-linear patterns that simple regression cannot capture
+                    - High dimensionality and categorical features poorly suited for linear modeling
+
+                    ### Logistic Regression Performance
+                    **Result**: 49% accuracy for gender prediction
+                    **Analysis**:
+                    - Below-average performance suggests inadequate feature selection for demographic prediction
+                    - Movie preferences may not strongly correlate with binary gender classifications
+                    - Limited by 1-5 rating scale granularity and missing contextual information
+
+                    ### Support Vector Machine Performance
+                    **Results**:
+                    - SVR: Negative R-squared (poor regression performance)
+                    - SVC: 97% accuracy (but with critical limitations)
+
+                    **Analysis**:
+                    - High classification accuracy is misleading due to severe class imbalance
+                    - Model exhibits prediction bias - classifies all high-revenue movies as low-revenue
+                    - Demonstrates the importance of examining confusion matrices beyond accuracy scores
+
+                    ### K-Means Clustering Performance
+                    **Result**: 79.59% silhouette coefficient with k=9 clusters
+                    **Analysis**:
+                    - **Exceptional Performance**: Highest quality metric among all techniques tested
+                    - **Well-Defined Clusters**: High silhouette coefficient indicates meaningful movie groupings
+                    - **Business Applicability**: Clusters directly translate to actionable recommendation categories
+
+                    ## Decision Framework: Why K-Means Clustering
+
+                    ### Quantitative Justification
+                    1. **Superior Performance Metrics**: 79.59% silhouette coefficient vs. 9% (Linear), 49% (Logistic),
+                    and biased 97% (SVM)
+                    2. **Meaningful Segmentation**: Creates interpretable movie groups for business applications
+                    3. **Robust to Data Issues**: Less affected by missing values and mixed data types
+
+                    ### Qualitative Advantages
+                    1. **Unsupervised Learning Fit**: Movie data naturally contains hidden patterns suitable for
+                    clustering
+                    2. **Scalability**: Efficient processing of large datasets (1M+ records)
+                    3. **Recommendation System Alignment**: Direct application to movie recommendation engines
+                    4. **Market Segmentation**: Enables targeted marketing strategies based on movie clusters
+
+                    ### Business Impact Considerations
+                    1. **Actionable Insights**: Clusters provide clear movie categories for content curation
+                    2. **User Experience**: Improved recommendation accuracy through better movie grouping
+                    3. **Strategic Planning**: Market segmentation insights for content acquisition decisions
+
+                    ## Conclusion & Recommendations
+
+                    ### Primary Finding
+                    **K-Means Clustering emerges as the optimal technique** for this movie analytics project due to:
+                    - Exceptional quantitative performance (79.59% silhouette coefficient)
+                    - Strong business applicability for recommendation systems
+                    - Robust handling of complex, mixed-type movie data
+                    - Clear interpretability of results for stakeholder communication
+
+                    ### Technical Rationale
+                    The comparative analysis demonstrates that movie data characteristics (high dimensionality,
+                    categorical features, user-movie relationships) are inherently better suited for unsupervised
+                    clustering approaches rather than supervised prediction models. The poor performance of regression
+                    and classification techniques validates this data-driven approach to algorithm selection.
+
+                    ### Strategic Implementation
+                    Moving forward with K-Means clustering enables:
+                    1. **Immediate Application**: Deploy 9-cluster segmentation for recommendation systems
+                    2. **Scalable Framework**: Methodology can be applied to larger, updated datasets
+                    3. **Continuous Improvement**: Cluster analysis can be refined as more data becomes available
+
+                    ### Lessons Learned
+                    This project exemplifies the critical importance of:
+                    - Testing multiple approaches before settling on a single technique
+                    - Evaluating beyond surface-level accuracy metrics
+                    - Aligning analytical methods with business objectives and data characteristics
+                    - Making data-driven decisions about algorithm selection rather than assumptions
+                </p>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle">AI Agent Project</h2>
+                <p class="about__text">
+           AI Agent Development Project:
+
+Tech Digest Email Agent: Built a simple yet effective Flask-powered email subscription system with hardcoded tech article database, automated daily email delivery using GitHub Actions, and SQLite database for subscriber management.
+Article Management System: Created static content repository with 15 hardcoded tech articles including images and links, stored in articles.py, providing curated tech news content for subscriber distribution.
+Automated Email Infrastructure: Implemented SendGrid integration through email_utils.py for welcome email delivery and daily subscriber notifications, with environment variable configuration for secure API key management.
+Subscription Workflow: Developed complete user journey from HTML form submission on landing page (index.html) to SQLite database storage (subscribers.db) and instant welcome email delivery through Flask main.py.
+Scheduled Email Automation: Built schedule_task.py script integrated with GitHub Actions workflow (daily-email.yml) to automatically send daily emails to all subscribers at scheduled times.
+Full-Stack Architecture: Created comprehensive system with frontend HTML template, CSS styling, Flask backend API, SQLite database integration, and cloud-based automation for reliable email delivery.
+GitHub Actions Integration: Implemented CI/CD pipeline using daily-email.yml workflow file to execute scheduled email delivery tasks automatically, ensuring consistent subscriber engagement without manual intervention.
+Environment-Based Configuration: Utilized .env file for secure API key storage, database configuration, and email service credentials, following security best practices for production deployment.
+Simple Database Design: Used SQLite (subscribers.db) for lightweight subscriber storage, automatically generated through Flask application with email validation and duplicate prevention mechanisms.
+Modular Code Structure: Organized project with separated concerns - article content (articles.py), email logic (email_utils.py), web interface (main.py), and scheduling (schedule_task.py) for maintainable development.
+                </p>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle"> Frontend & Bootstrap Development Projects:</h2>
+                <p class="about__text">
+                    Frontend & Bootstrap Development Projects:
+
+                    Hogwarts School Website: Developed a magical-themed institutional website using HTML5, CSS3, and
+                    Bootstrap 5.3.2 with glass morphism design, custom typography (Cinzel & Crimson Text), and smooth
+                    animations across hero sections, house-themed cards, and interactive admission forms.
+                    Bootstrap Responsive Project: Engineered fully responsive layout using Bootstrap grid system and
+                    media queries, featuring responsive navigation bar, cards, and sections optimized for mobile,
+                    tablet, and desktop screens with clean semantic HTML structure.
+                    Implemented dynamic user interactions including fade-in effects, hover transitions, smooth scrolling
+                    navigation, and mobile-first responsive design approach ensuring optimal cross-device compatibility.
+                    Utilized modern web technologies including Font Awesome icons, Google Fonts integration, form
+                    validation systems, and CSS custom properties for maintainable and scalable code architecture.
+                    Created engaging user experiences with sophisticated color palettes, glass morphism effects,
+                    floating elements, and seamless navigation systems demonstrating expertise in contemporary web
+                    design principles.
+                    Optimized performance through compressed images, CDN resources, minimal JavaScript implementation,
+                    and efficient CSS selectors ensuring fast loading times and smooth user interactions.
+                    Developed comprehensive website sections including hero landing pages, institutional information
+                    displays, curriculum catalogs, faculty showcases, and validated contact forms with professional
+                    presentation.
+                    Demonstrated proficiency in responsive breakpoint management, Bootstrap component customization, and
+                    cross-browser compatibility testing for consistent user experience delivery.
+                    Applied accessibility best practices with semantic HTML structure, proper form controls, readable
+                    typography hierarchy, and mobile-responsive hamburger menu implementations.
+                    Showcased advanced CSS techniques including backdrop blur effects, custom animations, grid-based
+                    layouts, and modern design systems with consistent spacing and typography standards.
+                </p>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle">Fullstack project</h2>
+                <p class="about__text">
+                    Fullstack Development Project:
+
+                    Flag Master Game: Built a complete fullstack flag guessing application using React, TypeScript, and
+                    Tailwind CSS with comprehensive geographic categorization across 7 regions covering 200+ countries
+                    worldwide.
+                    Interactive Gaming Features: Implemented timed challenges (30 seconds per question), streak system
+                    for bonus points, smart scoring algorithm based on speed and accuracy, and performance rating system
+                    from beginner to outstanding levels.
+                    Advanced Frontend Architecture: Developed responsive UI with modern glassmorphism effects, gradient
+                    backgrounds, smooth animations, and mobile-first design approach ensuring optimal user experience
+                    across all devices.
+                    Comprehensive Data Management: Structured extensive country database with high-quality flag images
+                    organized by geographic regions including Europe (40 countries), Africa (46 countries), Asia Pacific
+                    (30 countries), and Middle East (18 countries).
+                    Scoring & Game Logic: Created sophisticated point calculation system with base scores (100 points),
+                    time bonuses (up to 15 points), streak multipliers (up to 100 points), and dynamic difficulty
+                    progression.
+                    Production-Ready Deployment: Optimized application performance with SEO-friendly architecture,
+                    accessibility compliance (proper contrast ratios, keyboard navigation), and cross-browser
+                    compatibility testing.
+                    TypeScript Integration: Implemented type-safe development with comprehensive interfaces for country
+                    data, game state management, scoring calculations, and component props for maintainable codebase.
+                    Responsive Game Design: Built adaptive layouts with Tailwind CSS utility classes, ensuring seamless
+                    gameplay experience from mobile devices to desktop screens with intuitive touch and click
+                    interactions.
+                    Real-time Game Mechanics: Developed countdown timers, live score updates, streak tracking, category
+                    switching, and instant feedback systems creating engaging and competitive gaming experience.
+                    Modern Development Stack: Utilized React hooks for state management, component lifecycle
+                    optimization, custom hooks for game logic, and modular architecture following current industry best
+                    practices.
+                </p>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle">Data visualisation project: Tableau</h2>
+                <p class="about__text">
+Data Analytics & Visualization Project:
+**Data Analytics & Visualization Project:**
+
+• **Premier League Players ROI Visualization**: Developed comprehensive Tableau dashboard analyzing IPL player statistics with custom ROI metrics to guide team decision-making during small and large auction processes for optimal player acquisition strategies.
+
+• **Custom Performance Metrics Creation**: Built advanced analytical metrics including cost-per-run for batsmen, cost-per-wicket for bowlers, strike rate efficiency ratios, and overall player value propositions considering salary vs. performance output.
+
+• **Interactive Auction Analytics**: Designed dynamic Tableau visualizations enabling team analysts to filter players by position, budget constraints, performance categories, and ROI calculations to identify undervalued talent in auction markets.
+
+• **Small Auction Strategy Focus**: Specialized dashboard development targeting annual small auction scenarios where teams release and acquire players, providing data-driven insights for strategic player replacement and team composition optimization.
+
+• **Multi-Factor ROI Analysis**: Implemented comprehensive evaluation system considering batting averages, bowling economy rates, fielding statistics, injury history, and salary costs to calculate holistic player return on investment metrics.
+
+• **Baseball-Cricket Analytics Bridge**: Applied sports analytics principles from baseball to cricket terminology and statistics, creating accessible performance metrics for international audiences while maintaining cricket-specific insights.
+
+• **Executive Decision Support**: Created executive-level dashboards with clear visual indicators, comparative analysis tools, and budget optimization features enabling management to make informed multi-million dollar player investment decisions.
+
+• **Scalable Analytics Framework**: Built foundational system supporting both small annual auctions and major 5-6 year auction cycles, with extensible architecture for incorporating additional datasets and performance factors.
+
+• **Future-Ready Data Pipeline**: Designed system architecture supporting integration of fitness data, injury records, and other complex metrics to enhance player evaluation accuracy and long-term investment predictions.
+
+• **Interactive Visualization Suite**: Developed user-friendly Tableau interface with drill-down capabilities, scenario modeling tools, and comparative analysis features enabling comprehensive player evaluation across multiple performance dimensions.
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle">Data Visualization project 2</h2>
+                <p class="about__text">
+               **Data Visualization & D3.js Development Project:**
+
+• **Suicide Rates Visualization Dashboard**: Built interactive choropleth map using D3.js v7 to visualize suicide rates across U.S. states and counties, utilizing AI-generated dataset and TopoJSON geographical boundaries for comprehensive statistical representation.
+
+• **AI-Powered Data Generation**: Leveraged GPT prompt engineering to create structured CSV dataset with columns (id, state, county, suicide rate) covering all U.S. states and counties organized statewise from Alabama to Florida for realistic data simulation.
+
+• **Advanced D3.js Implementation**: Developed sophisticated geographical visualization using D3.js library integration with TopoJSON for rendering U.S. county and state boundaries (counties-albers-10m.json) with color-coded suicide rate mapping.
+
+• **Interactive Choropleth Mapping**: Created dynamic color-gradient visualization system where suicide rates are represented through color intensity, enabling users to identify regional patterns and statistical hotspots across different geographical areas.
+
+• **Modular Architecture Design**: Structured project with separated concerns - index.html for main entry and script loading, suicideViz.js for data processing and rendering logic, and TopoJSON file for geographical boundary definitions.
+
+• **External Library Integration**: Implemented CDN-based resource loading for D3.js v7 and TopoJSON 3.0.2 libraries, ensuring reliable performance and up-to-date visualization functionality without local dependency management.
+
+• **SVG-Based Rendering System**: Built scalable vector graphics visualization within designated map-container div, providing crisp, responsive geographical representation that maintains quality across different screen sizes and zoom levels.
+
+• **Data Processing Pipeline**: Developed comprehensive data loading, parsing, and transformation workflow in suicideViz.js handling CSV data integration with geographical boundaries for accurate county-level statistical mapping.
+
+• **Statistical Data Visualization**: Applied data visualization best practices including appropriate color schemes, legend implementation, and statistical representation techniques for sensitive public health data presentation.
+
+• **Responsive Web Visualization**: Created browser-compatible interactive map supporting user engagement through hover effects, tooltips, and geographical exploration features for comprehensive data analysis experience.                </p>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+        <div class="about__container bd-grid">
+            <div>
+                <h2 class="about__subtitle">Devops project</h2>
+                <p class="about__text">
+Built a containerized React frontend using Vite, TypeScript, and Tailwind CSS
+
+Designed and implemented a CI/CD pipeline using GitHub Actions
+
+Automated linting, dependency installation, and build steps on each commit
+
+Configured Dockerfile for local development and production parity
+
+Deployed app to Vercel with zero-downtime via automatic push-to-deploy
+
+Defined custom Vercel deployment settings using vercel.json
+
+Maintained clean and reproducible builds using Vite and Docker
+
+Integrated CI workflows under .github/workflows/frontend.yml
+
+Enabled local testing with npm run preview and Docker preview mode
+
+Ensured scalability and rapid delivery through DevOps best practices                </p>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/ibm.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__copy">&#169; All rigths reserved ......&#128540; just kidding</p>
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
