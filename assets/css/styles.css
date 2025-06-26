@@ -223,6 +223,16 @@ input:checked + .slider:before {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  position: relative;
+  row-gap: 5rem;
+  padding: 4rem 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - var(--header-height));
+  text-align: center;
+  flex-direction: column;
+
 }
 .home__data {
   align-self: center;
